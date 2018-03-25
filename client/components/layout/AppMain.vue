@@ -39,11 +39,11 @@ export default {
 
 .app-main {
   padding-top: 50px;
-  margin-left: 180px;
+  margin-right: 180px;
   transform: translate3d(0, 0, 0);
 
   @include mobile() {
-    margin-left: 0;
+    margin-right: 0;
   }
 
 }

@@ -35,10 +35,10 @@ export default {
 @import '~bulma/sass/utilities/mixins';
 
 .footer {
-  margin-left: 180px;
+  margin-right: 180px;
   
   @include mobile() {
-    margin-left: 0;
+    margin-right: 0;
   }
   
   .social a {
